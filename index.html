@@ -2006,6 +2006,40 @@ html.rp-open .sticky-cta{display:none!important}
 
 .sk-r>div.sk-pain{color:#1F1914!important;font-weight:500!important;opacity:1!important}
 .sk-h>div:first-child{color:#3A3631!important}
+
+@media(min-width:701px){
+  section.wh{display:block!important;position:relative!important;overflow:hidden}
+  section.wh .wh-bg{position:absolute!important;inset:0 0 0 50%!important;left:50%!important;height:auto!important}
+  section.wh .wh-shade{background:linear-gradient(90deg,#1F1914 0%,rgba(31,25,20,.4) 10%,rgba(31,25,20,0) 30%),linear-gradient(0deg,rgba(31,25,20,.35),rgba(31,25,20,0) 25%)!important}
+  section.wh .wh-in{display:flex!important;flex-direction:column!important;justify-content:center!important;min-height:min(92vh,880px)!important;padding-top:128px!important;padding-bottom:72px!important}
+  section.wh .wh-in>.wh-copy{max-width:calc(50vw - 64px - max(0px,(100vw - 1180px)/2))!important;margin-left:0!important}
+  section.wh .wh h1, section.wh h1{font-size:clamp(1.85rem,3.5vw,3.6rem)!important}
+  section.wh .wh-checks li{font-size:clamp(14px,1.45vw,18px)!important}
+  section.wh .wh-special{flex-wrap:wrap}
+}
+
+@media(min-width:701px){
+  section.wh .wh-bg{width:auto!important;right:0!important}
+  section.wh .wh-bg video{object-position:50% 30%!important}
+  #karim .fd{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)!important;gap:clamp(24px,4vw,56px)!important;align-items:start!important}
+  #karim .fd-reel{justify-self:end!important;max-width:440px!important;position:sticky;top:90px}
+}
+@media(min-width:701px) and (max-width:1100px){
+  #karim .fd-copy p{font-size:15px!important;line-height:1.6!important}
+  #karim .fd-id img{width:84px!important;height:84px!important}
+  #karim h2{font-size:clamp(1.8rem,3.6vw,2.6rem)!important}
+  section.wh .wh-in{min-height:min(84vh,720px)!important;padding-top:104px!important;padding-bottom:48px!important}
+}
+
+@media(min-width:701px){
+  #offer .of-tiles{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important}
+  section.wh .wh-special{flex-wrap:nowrap!important;white-space:nowrap}
+}
+@media(min-width:701px) and (max-width:1100px){
+  #offer .of-tile h3{font-size:16px!important}
+  #offer .of-tile li,#offer .of-meta{font-size:12.5px!important}
+  section.wh .wh-special{font-size:13px!important}
+}
 </style>
 </head><body>
 <!doctype html>
